@@ -1,7 +1,10 @@
 from django.contrib import admin
 from django.urls import path
 from Proyecto1.views import *
+<<<<<<< HEAD
 #saludo, segunda_vista, dia_de_hoy, mi_nombre, template1, template2,template3,template4, template5
+=======
+>>>>>>> 28b75e2e8f5d934d40d6c0bd3d911dc44c06a973
 
 urlpatterns = [
     path('saludo/', saludo),

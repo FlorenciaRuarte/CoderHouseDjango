@@ -25,6 +25,7 @@ def mi_nombre(request, nombre):
 def template1(request):
     return render(request, "template1.html")
 
+<<<<<<< HEAD
 def template2(request):
     return render(request, "template2.html")
 
@@ -32,10 +33,29 @@ def template3(request):
     context = {"curso": "Python"}
     return render(request, "template3.html", context)
 
+=======
+
+def template2(request):
+    return render(request, "template2.html")
+
+
+def template3(request):
+    context = {"curso": "python"}
+    return render(request, "template3.html", context)
+
+
+>>>>>>> 28b75e2e8f5d934d40d6c0bd3d911dc44c06a973
 def template4(request, nombre):
     context = {"nombre": nombre}
     return render(request, "template4.html", context)
 
+<<<<<<< HEAD
 def template5(request):
     context = {"lista": [1,2,3,4,5,6]}
     return render(request, "template5.html", context)
+=======
+
+def template5(request):
+    context = {"lista": [1,2,3,4,5,6]}
+    return render(request, "template5.html", context)
+>>>>>>> 28b75e2e8f5d934d40d6c0bd3d911dc44c06a973
